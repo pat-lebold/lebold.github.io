@@ -24,7 +24,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  border: 0;
   font: inherit;
   vertical-align: baseline;
 }
@@ -39,10 +38,6 @@ ol, ul {
   list-style: none;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 /*******************************************************************************
 Theme Styles
@@ -232,9 +227,8 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
  }
 
 th {
@@ -264,7 +258,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 1010px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -284,6 +278,22 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
+#nav_button {
+  display: inline;
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  background-color: #555555;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
 #header_wrap {
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
@@ -291,10 +301,11 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 20px 30px 10px;
 }
 
 #project_title {
