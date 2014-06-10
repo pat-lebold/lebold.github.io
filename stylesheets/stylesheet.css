@@ -278,6 +278,10 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
+#project_title_element{
+	display: inline-block;
+}
+
 #nav_button {
   display: inline;
   top:0;
