@@ -279,7 +279,7 @@ Full-Width Styles
 }
 
 #project_title_element{
-	display: inline-block;
+	display: inline;
 }
 
 #nav_button {
