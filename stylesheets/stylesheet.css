@@ -279,7 +279,8 @@ Full-Width Styles
 }
 
 #project_title_element{
-	float: left;
+	vertical-align: top;
+	display: inline;
 }
 
 #nav_button {
